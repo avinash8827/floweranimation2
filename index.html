@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flower</title>
+        <style>
+        .parent{
+            width: 400px;
+            height: 400px;
+            margin: 150px auto;
+            position: relative;
+        }
+        .parent > div{
+            position: absolute;
+        }
+        .common{
+            width: 200px;
+            height: 200px;
+            transform-origin: right bottom;
+            border-bottom-left-radius: 200px;
+            border-top-right-radius:200px ;
+            opacity: 0.4;
+        }
+        #p1:hover .parent{
+            animation: flower 8s linear 0s infinite;
+        }
+        @keyframes flower {
+            0%{
+                transform: rotateZ(0deg);
+            }
+            100%{
+                transform: rotateZ(359deg);
+            }
+            
+        }
+        .a1{
+            background: SeaShell;
+            transform: rotateZ(5.625deg);
+        }
+        .a2{
+            background: 	#d6d39e;
+            transform: rotateZ(11.25deg);
+        }
+        .a3{
+            background: rgba(114, 145, 64, 0.122);
+            transform: rotateZ(16.875deg);
+        }
+        .a4{
+            background: 	#ab820a6d;
+            transform: rotateZ(23.5deg);
+        }
+        .a5{
+            background: #d6d67d;
+            transform: rotateZ(29.125deg);
+        }
+        .a6{
+            background: #bfff00;
+            transform: rotateZ(34.75deg);
+        }
+        .a7{
+            background: #9dd8635a;
+            transform: rotateZ(40.375deg);
+        }
+        .a8{
+            background: #c15e4c53;
+            transform: rotateZ(46deg);
+        }
+        .a9{
+            background: #0080ff;
+            transform: rotateZ(51.625deg);
+        }
+        .a10{
+            background: #0040ff;
+            transform: rotateZ(57.25deg);
+        }
+        .a11{
+            background: #4000ff;
+            transform: rotateZ(62.875deg);
+        }
+        .a12{
+            background: #bf00ff;
+            transform: rotateZ(68.5deg);
+        }
+        .a13{
+            background: #ff00ff;
+            transform: rotateZ(74.125deg);
+        }
+        .a14{
+            background:  #800080;
+            transform: rotateZ(79.75deg);
+        }
+        .a15{
+            background: #7FFFD4;
+            transform: rotateZ(85.375deg);
+        }
+        .a16{
+            background: #5F9EA0;
+            transform: rotateZ(91deg);
+        }
+        .a17{
+            background: #FFEBCD;
+            transform: rotateZ(96.625deg);
+        }
+        .a18{
+            background: #008B8B;
+            transform: rotateZ(102.25deg);
+        }
+        .a19{
+            background: #B8860B;
+            transform: rotateZ(107.875deg);
+        }
+        .a20{
+            background: #00008B;
+            transform: rotateZ(113.5deg);
+        }
+        .a21{
+            background: #A9A9A9;
+            transform: rotateZ(119.125deg);
+        }
+        .a22{
+            background: #006400;
+            transform: rotateZ(124.75deg);
+        }
+        .a23{
+            background: #A9A9A9;
+            transform: rotateZ(130.375deg);
+        }
+        .a24{
+            background: #aca6af;
+            transform: rotateZ(136deg);
+        }
+        .a25{
+            background: #8B008B;
+            transform: rotateZ(141.625deg);
+        }
+        .a26{
+            background: #556B2F;
+            transform: rotateZ(147.25deg);
+        }
+        .a27{
+            background: #BDB76B;
+            transform: rotateZ(152.875deg);
+        }
+        .a28{
+            background: #FF8C00;
+            transform: rotateZ(158.5deg);
+        }
+        .a29{
+            background: #9932CC;
+            transform: rotateZ(164.125deg);
+        }
+        .a30{
+            background: #8B0000;
+            transform: rotateZ(169.75deg);
+        }
+        .a31{
+            background: #E9967A;
+            transform: rotateZ(175.375deg);
+        }
+        .a32{
+            background: #8FBC8F;
+            transform: rotateZ(181deg);
+        }
+        .a33{
+            background: #483D8B;
+            transform: rotateZ(186.625deg);
+        }
+        .a34{
+            background: #FF1493;
+            transform: rotateZ(192.25deg);
+        }
+        .a35{
+            background: #9400D3;
+            transform: rotateZ(197.875deg);
+        }
+        .a36{
+            background: #00BFFF;
+            transform: rotateZ(203.5deg);
+        }
+        .a37{
+            background: #2F4F4F;
+            transform: rotateZ(209.125deg);
+        }
+        .a38{
+            background: #00CED1;
+            transform: rotateZ(214.75deg);
+        }
+        .a39{
+            background: #B22222;
+            transform: rotateZ(220.375deg);
+        }
+        .a40{
+            background: rgb(226, 159, 206);
+            transform: rotateZ(226deg);
+        }
+        .a41{
+            background:Cyan;
+            transform: rotateZ(231.625deg);
+        }
+        .a42{
+            background: LightSkyBlue;
+            transform: rotateZ(237.25deg);
+        }
+        .a43{
+            background: IndianRed;
+            transform: rotateZ(242.875deg);
+        }
+        .a44{
+            background: Violet;
+            transform: rotateZ(248.5deg);
+        }
+        .a45{
+            background: Gainsboro;
+            transform: rotateZ(254.125deg);
+        }
+        .a46{
+            background: DarkOrange;
+            transform: rotateZ(259.75deg);
+        }
+        .a47{
+            background: LightPink;
+            transform: rotateZ(265.375deg);
+        }
+        .a48{
+            background: #90EE90;
+            transform: rotateZ(271deg);
+        }
+        .a49{
+            background: #FFB6C1;
+            transform: rotateZ(576.625deg);
+        }
+        .a50{
+            background: #D3D3D3;
+            transform: rotateZ(282.25deg);
+        }
+        .a51{
+            background: #778899;
+            transform: rotateZ(287.875deg);
+        }
+        .a52{
+            background: #d1d0b223;
+            transform: rotateZ(293.5deg);
+        }
+        .a53{
+            background: #3e1b3e30;
+            transform: rotateZ(299.125deg);
+        }
+        .a54{
+            background: #b1869f;
+            transform: rotateZ(304.75deg);
+        }
+        .a55{
+            background: gold;
+            transform: rotateZ(310.375deg);
+        }
+        .a56{
+            background: DarkOrchid;
+            transform: rotateZ(316deg);
+        }
+        .a57{
+            background: GreenYellow;
+            transform: rotateZ(321.625deg);
+        }
+        .a58{
+            background: Brown;
+            transform: rotateZ(327.25deg);
+        }
+        .a59{
+            background: SpringGreen;
+            transform: rotateZ(332.875deg);
+        }
+        .a60{
+            background:Tan ;
+            transform: rotateZ(338.5deg);
+        }
+        .a61{
+            background:SeaGreen;
+            transform: rotateZ(344.125deg);
+        }
+        .a62{
+            background:Red ;
+            transform: rotateZ(349.753deg);
+        }
+        .a63{
+            background: #904376;
+            transform: rotateZ(355.378deg);
+        }
+        .a64{
+            background: #CD853F;
+            transform: rotateZ(361.003deg);
+        }
+    </style>        
+    </head>
+    <body id="p1">
+        <div class="parent">
+            <div class=" common a1"></div>
+            <div class=" common a2"></div>
+            <div class=" common a3"></div>
+            <div class=" common a4"></div>
+            <div class=" common a5"></div>
+            <div class=" common a6"></div>
+            <div class=" common a7"></div>
+            <div class=" common a8"></div>
+            <div class=" common a9"></div>
+            <div class=" common a10"></div>
+            <div class=" common a11"></div>
+            <div class=" common a12"></div>
+            <div class=" common a13"></div>
+            <div class=" common a14"></div>
+            <div class=" common a15"></div>
+            <div class=" common a16"></div>
+            <div class=" common a17"></div>
+            <div class=" common a18"></div>
+            <div class=" common a19"></div>
+            <div class=" common a20"></div>
+            <div class=" common a21"></div>
+            <div class=" common a22"></div>
+            <div class=" common a23"></div>
+            <div class=" common a24"></div>
+            <div class=" common a25"></div>
+            <div class=" common a26"></div>
+            <div class=" common a27"></div>
+            <div class=" common a28"></div>
+            <div class=" common a29"></div>
+            <div class=" common a30"></div>
+            <div class=" common a31"></div>
+            <div class=" common a32"></div>
+            <div class=" common a33"></div>
+            <div class=" common a34"></div>
+            <div class=" common a35"></div>
+            <div class=" common a36"></div>
+            <div class=" common a37"></div>
+            <div class=" common a38"></div>
+            <div class=" common a39"></div>
+            <div class=" common a40"></div>
+            <div class=" common a41"></div>
+            <div class=" common a42"></div>
+            <div class=" common a43"></div>
+            <div class=" common a44"></div>
+            <div class=" common a45"></div>
+            <div class=" common a46"></div>
+            <div class=" common a47"></div>
+            <div class=" common a48"></div>
+            <div class=" common a49"></div>
+            <div class=" common a50"></div>
+            <div class=" common a51"></div>
+            <div class=" common a52"></div>
+            <div class=" common a53"></div>
+            <div class=" common a54"></div>
+            <div class=" common a55"></div>
+            <div class=" common a56"></div>
+            <div class=" common a57"></div>
+            <div class=" common a58"></div>
+            <div class=" common a59"></div>
+            <div class=" common a60"></div>
+            <div class=" common a61"></div>
+            <div class=" common a62"></div>
+            <div class=" common a63"></div>
+            <div class=" common a64"></div>
+        </div>     
+    </body>
+</html>
